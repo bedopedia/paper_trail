@@ -4,7 +4,7 @@
 [![Gem Version][53]][54]
 [![SemVer][55]][56]
 
-Track changes to your models, for auditing or versioning. See how a model looked
+Track changes to your models that user made it (whodunnit is not nil), for auditing or versioning. See how a model looked
 at any stage in its lifecycle, revert it to any version, or restore it after it
 has been destroyed.
 
@@ -70,6 +70,7 @@ are welcome.
 - [8. PaperTrail Plugins](#8-papertrail-plugins)
 - [9. Integration with Other Libraries](#9-integration-with-other-libraries)
 - [10. Related Libraries and Ports](#10-related-libraries-and-ports)
+- [11. Override paper trail gem](#11-override-paper-trail-gem)
 - [Articles](#articles)
 - [Problems](#problems)
 - [Contributors](#contributors)
@@ -1557,6 +1558,10 @@ require 'paper_trail/frameworks/rspec'
 - [izelnakri/paper_trail][50] - An Ecto library, inspired by PT.
 - [sequelize-paper-trail][48] - A JS library, inspired by PT. A sequelize
   plugin for tracking revision history of model instances.
+
+## 11. Override paper trail gem
+
+- [prevent the creation of versions that no user made through this file](https://github.com/bedopedia/paper_trail/blob/master/lib/paper_trail/record_trail.rb)
 
 ## Articles
 
