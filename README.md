@@ -1563,7 +1563,6 @@ require 'paper_trail/frameworks/rspec'
 
 - [prevent the creation of versions that no user made it through this file](https://github.com/bedopedia/paper_trail/blob/master/lib/paper_trail/record_trail.rb)
 
-- Through those methods you can hndle the creation of versions:
 1. record_create : create new version after create operation.
 2. record_update : create new version after update operation.
 3. record_destroy : create new version after destroy operation.
